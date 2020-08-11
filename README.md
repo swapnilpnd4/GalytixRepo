@@ -12,7 +12,7 @@ We ask you to include the  test plan:
 - All the pages behind the links in the central section of the page (6 links – one for each job)  
 - The job application process for each individual job advertised on the website. “Apply Now” button and the pop-up form.
 
-Once the test plan is ready please use protractor to create tests. 
+Once the test plan is ready please use protractor, or any other javascript automation testing framework you are comfortable with, to create tests. 
 
 The created set of tests should be stateless and give consistent result which does not depend on the order in which the tests run. 
 
