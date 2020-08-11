@@ -1,29 +1,47 @@
-# README #
+# Galytix QA Exercise
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Dear candidate,
 
-### What is this repository for? ###
+For the second phase of the interview process we would like to ask you to attempt a short assignment that would help us to evaluate your test-planning and automation skills.
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+You will be required to create a high level test-plan for this angular app
 
-### How do I get set up? ###
+We ask you to include the  test plan:
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+- The “Browse jobs” page
+- All the pages behind the links in the central section of the page (6 links – one for each job)  
+- The job application process for each individual job advertised on the website. “Apply Now” button and the pop-up form.
 
-### Contribution guidelines ###
+Once the test plan is ready please use protractor to create tests. 
 
-* Writing tests
-* Code review
-* Other guidelines
+The created set of tests should be stateless and give consistent result which does not depend on the order in which the tests run. 
 
-### Who do I talk to? ###
+Your tests should be added to a public git repository with the instructions on how to run them.
 
-* Repo owner or admin
-* Other community or team contact
+Please aim to complete this exercise in three hours. 
+
+Please share the link to the repository when the assignment is complete. 
+
+Please do not worry about submitting “test” job applications, this is just a frontend app.
+
+We wish you best of luck.
+
+# Instructions:
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
+
+Checkout or download the code, then install the Angular CLI, and do:
+
+`npm install`
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
